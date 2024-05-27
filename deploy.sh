@@ -34,7 +34,7 @@ After=network.target
 User=$(whoami)
 Group=www-data
 WorkingDirectory=$DEPLOY_DIR
-ExecStart=/usr/bin/python3 $DEPLOY_DIR/app.py
+ExecStart=/usr/bin/python3 $DEPLOY_DIR/main.py
 
 [Install]
 WantedBy=multi-user.target
