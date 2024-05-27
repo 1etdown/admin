@@ -15,7 +15,7 @@ sudo apt install -y python3-pip nginx
 
 # Установка зависимостей Python
 echo "Installing Python dependencies..."
-pip3 install -r "$APP_DIR/requirements.txt"
+pip3 install flask
 
 # Копирование приложения в директорию деплоя
 echo "Copying application files to the deployment directory..."
