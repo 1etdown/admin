@@ -4,7 +4,7 @@
 set -e
 
 # Параметры
-APP_DIR="/home/$(whoami)/deploy_test"
+APP_DIR="/home/$(whoami)/admin"
 DEPLOY_DIR="/var/www/app"
 SERVICE_NAME="flaskapp"
 
